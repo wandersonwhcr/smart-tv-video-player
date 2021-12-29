@@ -4,3 +4,5 @@ services:
 
   nginx:
     image: "nginx:1.20"
+    ports:
+      - "80:80"
